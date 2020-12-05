@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    background-color: limegreen;
+    padding: 8px 16px;
+}
+
+header div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 900px);
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 3px 0;
+}
+a {
+    text-align: right;
+}
